@@ -1,3 +1,3 @@
 ./Build.ps1
 
-docker run -it --rm xplanetincontainer:latest
+docker run -p 5000:80 --rm xplanetincontainer:latest
